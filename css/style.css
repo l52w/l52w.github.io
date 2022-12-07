@@ -1,0 +1,14 @@
+
+* { margin: 0; padding: 0; text-decoration: none; list-style: none; box-sizing: border-box; }
+/* #wrap { display: flex; align-items: center; justify-content: space-between; } */
+
+#info { float: left; width: 15%; height: 100vh; background: linear-gradient(#eb5656, #72d644); }
+#main { float: left; width: 70%; height: 100vh; background: #fff; }
+#nav { float: left; width: 15%; height: 100vh; background: linear-gradient(#72d644, #d6d444); }
+
+#info .profile { display: flex; flex-direction: column; align-items: center; }
+#info .profile img { border-radius: 50%; width: 130px; margin-top: 50px; }
+#info .profile .txt { margin-top: 20px; }
+#info .profile .link i { color: #000; margin-top: 20px; }
+
+#main .banner img { height: 300px; width: 100%;}
