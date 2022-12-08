@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+* { margin: 0; padding: 0; text-decoration: none; list-style: none; box-sizing: border-box; }
+#wrap { width: 100%; margin: 0 auto; }
+a { color: #000; }
+
+#menu { width: 100%; height: 70px; display: flex; align-items: center; justify-content: space-around; background: #fff; position: absolute;}
+
+#main1 { width: 100%; display: flex; align-items: center; justify-content: space-between; }
+
+#main1 .select { width: 20%; height: 100vh; border-right: 1px solid #000; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+#main1 .select h1 { font-size: 50px; transform: rotate(-90deg); border-bottom: 1px solid #000; text-align: center; margin-left: -100px; }
+#main1 .select .year { margin-left: 70px; margin-top: -115px; }
+#main1 .select li { line-height: 50px; }
+#main1 .select li a { font-size: 20px; }
+
+#main1 .archive { width: 80%; height: 100vh; padding-top: 70px; display: flex; flex-direction: column; align-items: center; grid-gap: 50px; }
+#main1 .archive > p { font-family: cursive; margin-left: -1350px; margin-top: 50px; }
+#main1 .month { width: 80%; display: flex; justify-content: space-between; margin-top: -30px; }
+#main1 .month h1 { width: 5%; font-family: 'Limelight', cursive; }
+#main1 .month .mgroup { width: 95%; height: 200px; }
+#main1 .mgroup .project { width: 100%;  height: 150px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #000; }
+#main1 .project .day { font-family: 'Limelight', cursive; font-size: 40px; margin-left: 50px; }
+#main1 .project .text { width: 400px; }
+#main1 .project .image { width: 400px; }
