@@ -8,9 +8,9 @@
 }
 .images { width: 60%; height: 100%; background: #999; display: flex; flex-direction: column; align-items: center; justify-content: center;}
 .images .top, .bottom { display: flex;  grid-column-gap: 50px; }
-.images .img1 { width: 400px; height: 400px; background: #efefef; }
+.images .img1 img { width: 400px; height: 400px; }
 .images .img2 { width: 400px; height: 100px; background: #efefef; }
-.images .img3 { width: 400px; height: 200px; background: #efefef; margin-top: 50px; }
+.images .img3 img { width: 400px; height: 200px; margin-top: 50px; }
 .images .img4 { width: 400px; height: 500px; background: #efefef; margin-top: -250px; }
 
 .menu { width: 40%; height: 100%; display: flex; justify-content: space-around; align-items: center; }
