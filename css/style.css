@@ -3,15 +3,15 @@
 #wrap { width: 100%; margin: 0 auto; }
 
 #page1 {
-    width: 100%; height: 100vh; background: #ccc;
+    width: 100%; height: 100vh; background: rgb(230, 230, 230);
     display: flex;  align-items: center; justify-content: space-between;
 }
-.images { width: 60%; height: 100%; background: #999; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.images { width: 60%; height: 100%; background: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center;}
 .images .top, .bottom { display: flex;  grid-column-gap: 50px; }
 .images .img1 img { width: 400px; height: 400px; }
 .images .img2 { width: 400px; height: 100px; background: #efefef; }
 .images .img3 img { width: 400px; height: 200px; margin-top: 50px; }
-.images .img4 { width: 400px; height: 500px; background: #efefef; margin-top: -250px; }
+.images .img4 img { width: 400px; height: 500px; margin-top: -250px; }
 
 .menu { width: 40%; height: 100%; display: flex; justify-content: space-around; align-items: center; }
 .menu a { color: #000; }
