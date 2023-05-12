@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Tourney&display=swap');
 
 * { margin: 0; padding: 0; text-decoration: none; list-style: none; box-sizing: border-box; }
 #wrap { width: 100%; margin: 0 auto; }
 
 .line {
-    background-color: #fff; padding: 0; margin: 80px;
-    border: 0; height: 1px;
-    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0));
+    border: 0; height: 0; margin-bottom: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .nav { 
@@ -22,6 +23,8 @@
 }
 .title .name {
     z-index: 1; font-size: 100px; padding-top: 100px;
+    font-family: 'Tilt Warp', cursive; font-family: 'Tourney', cursive;
+    color: rgb(51, 54, 102);
 }
 
 .main { 
@@ -37,4 +40,36 @@
 }
 .intro img {
     width: 500px; height: 350px;
+}
+
+.blog {
+    width: 100%; height: 600px;
+    padding: 0 100px;
+}
+.blog h1 { margin-bottom: 50px;}
+.blog li , .blog .box{
+    display: flex; justify-content: space-around; align-items: center;
+}
+.blog .box { width: 100%; height: 200px; border-bottom: 1px solid #aaa; }
+.blog .box:hover { background: rgb(243, 240, 240);}
+.blog img { width: 150px; height: 150px; }
+.blog .txt { width: 700px; line-height: 30px;}
+.blog .txt span { color: #666;}
+
+.link {
+    width: 100%; height: 450px;
+    padding: 0 100px;
+}
+.link h1 { margin-bottom: 50px; }
+.link li, .link .box { 
+    display: flex; align-items: center; grid-column-gap: 15px;
+    padding: 0 50px;
+}
+.link .box { width: 100%; height: 80px; border-bottom: 1px solid #aaa; }
+.link i { font-size: 20px;}
+
+.footer {
+    width: 100%; height: 100px;
+    background: #ccc;
+    display: flex; justify-content: center; align-items: center;
 }
